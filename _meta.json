@@ -1,0 +1,21 @@
+{
+  "name": "arxiv-daily",
+  "version": "1.0.0",
+  "description": "每日自动抓取 arXiv AI 论文，生成中文笔记总结，创建飞书文档",
+  "read_when": [
+    "抓取 arXiv 论文",
+    "追踪 AI 前沿动态",
+    "生成论文笔记"
+  ],
+  "metadata": {
+    "emoji": "📚",
+    "requires": {
+      "bins": ["node", "curl"]
+    }
+  },
+  "allowed_tools": [
+    "Bash(curl:*)",
+    "Feishu(feishu_create_doc:*)",
+    "Feishu(feishu_drive_file:upload:*)"
+  ]
+}

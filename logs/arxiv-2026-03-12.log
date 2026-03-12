@@ -1,0 +1,93 @@
+[2026-03-12T08:01:25.060Z] INFO: ========== arxiv-daily 开始运行 ==========
+[2026-03-12T08:01:25.062Z] INFO: 目标抓取数量: 1
+[2026-03-12T08:01:25.062Z] INFO: 搜索条件: cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.NE
+[2026-03-12T08:01:25.062Z] INFO: [步骤1] 获取 arXiv 论文列表...
+[2026-03-12T08:01:25.063Z] INFO: 正在请求 arXiv API: https://export.arxiv.org/api/query?search_query=cat%3Acs.AI%20OR%20cat%3Acs.CL%20OR%20cat%3Acs.LG%20OR%20cat%3Acs.NE&sortBy=submittedDate&sortOrder=descending&max_results=1
+[2026-03-12T08:01:46.242Z] INFO: 获取到 1 篇论文
+[2026-03-12T08:01:46.243Z] INFO: [步骤2.1] 抓取论文 1/1: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:01:46.243Z] INFO: 正在请求: https://arxiv.org/html/2603.11048
+[2026-03-12T08:01:46.313Z] INFO: 内容获取成功，清洗后长度: 37284 字符
+[2026-03-12T08:01:46.313Z] INFO:   论文: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:01:46.314Z] INFO:   作者: 
+[2026-03-12T08:01:46.314Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:01:46.314Z] INFO:   arXiv ID: 2603.11048
+[2026-03-12T08:01:46.314Z] INFO: [步骤3] 处理完成，论文列表:
+[2026-03-12T08:01:46.314Z] INFO:   1. COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:01:46.314Z] INFO:      作者: 
+[2026-03-12T08:01:46.314Z] INFO:      日期: 2026-03-11
+[2026-03-12T08:01:46.314Z] INFO: ========== arxiv-daily 运行完成 ==========
+[2026-03-12T08:01:46.314Z] INFO: 注意: 大模型总结和飞书文档创建需要后续步骤完成
+[2026-03-12T08:16:04.229Z] INFO: ========== arxiv-daily 开始运行 ==========
+[2026-03-12T08:16:04.232Z] INFO: 目标抓取数量: 1
+[2026-03-12T08:16:04.232Z] INFO: 搜索条件: cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.NE
+[2026-03-12T08:16:04.232Z] INFO: [步骤1] 获取 arXiv 论文列表...
+[2026-03-12T08:16:04.232Z] INFO: 正在请求 arXiv API...
+[2026-03-12T08:16:04.294Z] INFO: 获取到 1 篇论文
+[2026-03-12T08:16:04.294Z] INFO: [步骤2.1] 抓取论文 1/1: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:16:04.294Z] INFO: 正在请求: https://arxiv.org/html/2603.11048v1
+[2026-03-12T08:16:04.402Z] INFO: 内容获取成功，清洗后长度: 33753 字符
+[2026-03-12T08:16:04.402Z] INFO:   论文: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:16:04.402Z] INFO:   作者: 
+[2026-03-12T08:16:04.402Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:16:04.402Z] INFO:   arXiv ID: 2603.11048
+[2026-03-12T08:16:04.402Z] INFO: ========== 抓取完成 ==========
+[2026-03-12T08:16:04.402Z] INFO: 提示: 大模型总结和飞书文档创建需要通过阿圈手动完成
+[2026-03-12T08:17:19.212Z] INFO: ========== arxiv-daily 开始运行 ==========
+[2026-03-12T08:17:19.214Z] INFO: 目标抓取数量: 1
+[2026-03-12T08:17:19.214Z] INFO: 搜索条件: cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.NE
+[2026-03-12T08:17:19.214Z] INFO: [步骤1] 获取 arXiv 论文列表...
+[2026-03-12T08:17:19.215Z] INFO: 正在请求 arXiv API...
+[2026-03-12T08:17:19.269Z] INFO: 获取到 1 篇论文
+[2026-03-12T08:17:19.269Z] INFO: [步骤2.1] 抓取论文 1/1: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:17:19.269Z] INFO: 正在请求: https://arxiv.org/html/2603.11048v1
+[2026-03-12T08:17:19.333Z] INFO: 内容获取成功，清洗后长度: 33753 字符
+[2026-03-12T08:17:19.334Z] INFO:   论文: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:17:19.334Z] INFO:   作者: 
+[2026-03-12T08:17:19.334Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:17:19.334Z] INFO:   arXiv ID: 2603.11048
+[2026-03-12T08:17:19.334Z] INFO: ========== 抓取完成 ==========
+[2026-03-12T08:17:19.334Z] INFO: 提示: 大模型总结和飞书文档创建需要通过阿圈手动完成
+[2026-03-12T08:28:36.434Z] INFO: ========== arxiv-daily 开始运行 ==========
+[2026-03-12T08:28:36.436Z] INFO: 目标抓取数量: 1
+[2026-03-12T08:28:36.436Z] INFO: 搜索条件: cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.NE
+[2026-03-12T08:28:36.436Z] INFO: [步骤1] 获取 arXiv 论文列表...
+[2026-03-12T08:28:36.437Z] INFO: 正在请求 arXiv API...
+[2026-03-12T08:28:36.496Z] INFO: 获取到 1 篇论文
+[2026-03-12T08:28:36.496Z] INFO: [步骤2.1] 抓取论文 1/1: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:28:36.497Z] INFO: 正在请求: https://arxiv.org/html/2603.11048v1
+[2026-03-12T08:28:36.562Z] INFO: 内容获取成功，清洗后长度: 33753 字符
+[2026-03-12T08:28:36.562Z] INFO:   论文: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:28:36.562Z] INFO:   作者: 
+[2026-03-12T08:28:36.562Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:28:36.562Z] INFO:   arXiv ID: 2603.11048
+[2026-03-12T08:28:36.563Z] INFO: ========== 抓取完成 ==========
+[2026-03-12T08:28:36.563Z] INFO: 提示: 大模型总结和飞书文档创建需要通过阿圈手动完成
+[2026-03-12T08:59:18.931Z] INFO: ========== arxiv-daily 开始运行 ==========
+[2026-03-12T08:59:18.933Z] INFO: 目标抓取数量: 3
+[2026-03-12T08:59:18.934Z] INFO: 搜索条件: cat:cs.AI OR cat:cs.CL OR cat:cs.LG OR cat:cs.NE
+[2026-03-12T08:59:18.934Z] INFO: [步骤1] 获取 arXiv 论文列表...
+[2026-03-12T08:59:18.934Z] INFO: 正在请求 arXiv API...
+[2026-03-12T08:59:19.471Z] INFO: 获取到 3 篇论文
+[2026-03-12T08:59:19.471Z] INFO: [步骤2.1] 抓取论文 1/3: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:59:19.471Z] INFO: 正在请求: https://arxiv.org/html/2603.11048v1
+[2026-03-12T08:59:19.614Z] INFO: 内容获取成功，清洗后长度: 33753 字符
+[2026-03-12T08:59:19.615Z] INFO:   论文: COMIC: Agentic Sketch Comedy Generation
+[2026-03-12T08:59:19.615Z] INFO:   作者: 
+[2026-03-12T08:59:19.615Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:59:19.615Z] INFO:   arXiv ID: 2603.11048
+[2026-03-12T08:59:19.616Z] INFO: [步骤2.2] 抓取论文 2/3: LiTo: Surface Light Field Tokenization
+[2026-03-12T08:59:19.616Z] INFO: 正在请求: https://arxiv.org/html/2603.11047v1
+[2026-03-12T08:59:19.696Z] INFO: 内容获取成功，清洗后长度: 96566 字符
+[2026-03-12T08:59:19.696Z] INFO:   论文: LiTo: Surface Light Field Tokenization
+[2026-03-12T08:59:19.696Z] INFO:   作者: 
+[2026-03-12T08:59:19.696Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:59:19.696Z] INFO:   arXiv ID: 2603.11047
+[2026-03-12T08:59:19.696Z] INFO: [步骤2.3] 抓取论文 3/3: Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation
+[2026-03-12T08:59:19.696Z] INFO: 正在请求: https://arxiv.org/html/2603.11045v1
+[2026-03-12T08:59:19.776Z] INFO: 内容获取成功，清洗后长度: 101134 字符
+[2026-03-12T08:59:19.777Z] INFO:   论文: Neural Field Thermal Tomography: A Differentiable Physics Framework for Non-Destructive Evaluation
+[2026-03-12T08:59:19.777Z] INFO:   作者: 
+[2026-03-12T08:59:19.777Z] INFO:   日期: 2026-03-11
+[2026-03-12T08:59:19.777Z] INFO:   arXiv ID: 2603.11045
+[2026-03-12T08:59:19.777Z] INFO: ========== 抓取完成 ==========
+[2026-03-12T08:59:19.777Z] INFO: 提示: 大模型总结和飞书文档创建需要通过阿圈手动完成
