@@ -13,6 +13,14 @@ module.exports = {
   // 排序顺序: descending, ascending
   sortOrder: 'descending',
 
+  // 飞书配置
+  feishu: {
+    // 是否启用飞书文档创建
+    enabled: true,
+    // 文档存储的文件夹 token（可选）
+    folderToken: ''
+  },
+
   // 大模型 API 配置
   llm: {
     // API 类型: openai, anthropic, local 等
@@ -29,14 +37,14 @@ module.exports = {
 
   // 输出配置
   output: {
-    // 输出目录
+    // 输出目录（本地 MD 文件）
     dir: './output',
-    // 是否保存英文原文
-    saveOriginal: true,
-    // 是否保存总结
-    saveSummary: true,
+    // 是否保存英文原文到本地
+    saveLocalOriginal: true,
+    // 是否保存总结到本地
+    saveLocalSummary: true,
     // 是否保存导读速览
-    saveOverview: true
+    saveLocalOverview: true
   },
 
   // 日志配置
